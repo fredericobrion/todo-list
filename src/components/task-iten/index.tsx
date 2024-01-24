@@ -13,8 +13,8 @@ type TaskItenProps = {
 function TaskIten({
   name,
   id,
-  completed,
   darkMode,
+  completed,
   taskList,
   setTaskList,
 }: TaskItenProps) {
