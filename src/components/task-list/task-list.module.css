@@ -1,0 +1,60 @@
+.darkMode {
+  background-color: var(--very-dark-desaturated-blue);
+  color: var(--very-dark-desaturated-blue);
+}
+
+.lightMode {
+  background-color: var(--very-light-gray);
+  color: var(--very-light-gray);
+}
+
+.container {
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  transform: translateY(-6rem);
+  width: 27rem;
+}
+
+.tasksContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem 0;
+}
+
+.footerContainer p {
+  color: var(--dark-grayish-blue);
+  font-size: 0.7rem;
+}
+
+.footerContainer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.btnDarkMode {
+  color: var(--dark-grayish-blue);
+}
+
+.btnLightMode {
+  color: var(--dark-grayish-blue);
+}
+
+.btnDarkMode:hover {
+  color: var(--light-grayish-blue-hover);
+}
+
+.btnLightMode:hover {
+  color: var(--very-dark-grayish-blue-2);
+}
+
+.btnSelected {
+  color: var(--bright-blue);
+}

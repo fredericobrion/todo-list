@@ -1,0 +1,96 @@
+.container {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0.5rem;
+  transform: translateY(-8rem);
+  width: 26rem;
+}
+
+.btnContainer {
+  background: var(--dark-grayish-blue-dark);
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.btnContainer:hover {
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
+
+.container button {
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: 1.2rem;
+  justify-content: center;
+  width: 1.2rem;
+}
+
+.container button span {
+  border-radius: 50%;
+}
+
+.completedBtn {
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
+
+.completedCheck {
+  color: var(--very-light-gray);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form input {
+  border: none;
+  height: 2rem;
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.darkMode {
+  background-color: var(--very-dark-desaturated-blue);
+  color: var(--very-dark-desaturated-blue);
+}
+
+.lightMode {
+  background-color: var(--very-light-gray);
+  color: var(--very-light-gray);
+}
+
+.notCompletedDark {
+  color: var(--light-grayish-blue-dark);
+}
+
+.completedDark {
+  color: var(--very-dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.notCompletedLight {
+  color: var(--very-dark-grayish-blue-light);
+}
+
+.completedLight {
+  color: var(--light-grayish-blue);
+  text-decoration: line-through;
+}

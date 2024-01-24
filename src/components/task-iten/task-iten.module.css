@@ -1,0 +1,102 @@
+.darkMode {
+  background-color: var(--very-dark-desaturated-blue);
+  color: var(--very-dark-desaturated-blue);
+}
+
+.lightMode {
+  background-color: var(--very-light-gray);
+  color: var(--very-light-gray);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.containerDarkMode {
+  border-bottom: solid 1px var(--very-dark-grayish-blue);
+}
+
+.containerLightMode {
+  border-bottom: solid 1px var(--light-grayish-blue);
+}
+
+.btnContainer {
+  background: var(--dark-grayish-blue-dark);
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 1.2rem;
+  justify-content: center;
+  padding: 1px;
+  width: 1.2rem;
+}
+
+.btnContainer:hover {
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
+
+.btnContainer button {
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: 1.2rem;
+  justify-content: center;
+  width: 1.2rem;
+}
+
+.btnContainer button span {
+  border-radius: 50%;
+}
+
+.completedBtn {
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
+
+.completedCheck {
+  color: var(--very-light-gray);
+}
+
+.taskNotCompletedDark {
+  color: var(--light-grayish-blue-dark);
+}
+
+.taskCompletedDark {
+  color: var(--very-dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.taskNotCompletedLight {
+  color: var(--very-dark-grayish-blue-light);
+}
+
+.taskCompletedLight {
+  color: var(--light-grayish-blue);
+  text-decoration: line-through;
+}
+
+.btnDelete {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnDeleteDark {
+  color: var(--very-dark-grayish-blue);
+}
+
+.btnDeleteLight {
+  color: var(--very-dark-grayish-blue-light);
+}

@@ -1,0 +1,33 @@
+.header {
+    align-items: flex-start;
+    display: flex;
+    gap: 15rem;
+    height: 16rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+  
+  .dark {
+    background-image: url('../../assets/images/bg-desktop-dark.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  .light {
+    background-image: url('../../assets/images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  .header h1 {
+    color: var(--very-light-grayish-blue);
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    margin-top: 4rem;
+  }
+  
+  .header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 4rem;
+  }
