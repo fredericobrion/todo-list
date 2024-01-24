@@ -36,6 +36,7 @@ export default function TaskList({
       (task) => task.completed === false
     );
     setTaskList([...notCompletedTasks]);
+    localStorage.setItem("taskList", JSON.stringify([...notCompletedTasks]));
   };
 
   const containerClass = darkMode

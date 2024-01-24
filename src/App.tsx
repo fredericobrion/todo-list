@@ -7,7 +7,10 @@ import TaskList from './components/task-list';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
-  const [taskList, setTaskList] = useState<Task[]>([]);
+
+  const initialList = localStorage.getItem("taskList");
+
+  const [taskList, setTaskList] = useState<Task[]>(initialList ? JSON.parse(initialList) : []);
 
   return (
     <div className={ darkMode

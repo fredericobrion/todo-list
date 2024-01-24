@@ -24,6 +24,14 @@ function NewTask({ darkMode, taskList, setTaskList }: NewTaskProps) {
           id: nanoid(),
         },
       ]);
+      localStorage.setItem("taskList", JSON.stringify([
+        ...taskList,
+        {
+          name: newTask,
+          completed,
+          id: nanoid(),
+        },
+      ]));
       setNewTask('');
       setCompleted(false);
     }

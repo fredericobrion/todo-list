@@ -29,11 +29,13 @@ function TaskIten({
       completed: !completed,
     };
     setTaskList([...taskListCopy]);
+    localStorage.setItem("taskList", JSON.stringify([...taskListCopy]));
   };
 
   const handleDelete = () => {
     taskListCopy.splice(selectedTaskIndex, 1);
     setTaskList([...taskListCopy]);
+    localStorage.setItem("taskList", JSON.stringify([...taskListCopy]));
   };
 
   const setClassBtn = () => {
