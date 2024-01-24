@@ -1,4 +1,6 @@
 import styles from './header.module.css';
+import sunIcon from '../../assets/images/icon-sun.svg';
+import moonIcon from '../../assets/images/icon-moon.svg';
 
 type HeaderProps = {
   darkMode: boolean;
@@ -6,9 +8,6 @@ type HeaderProps = {
 };
 
 function Header({ darkMode, setDarkMode }: HeaderProps) {
-  const sunIcon = './src/assets/images/icon-sun.svg';
-  const moonIcon = './src/assets/images/icon-moon.svg';
-
   const backgroundImage = darkMode
     ? `${styles.header} ${styles.dark}`
     : `${styles.header} ${styles.light}`;
