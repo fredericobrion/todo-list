@@ -1,7 +1,7 @@
 # Todo List
 
 ## Descrição
-O <a href="https://fredericobrion.github.io/todo-list/" target="_blank">site</a> permite ao usuário criar uma lista de tarefa, podendo marca-las como completas ou incompletas, filtrar pelas completas ou incompletas e apagar as completas. Está disponível como dark-mode e light-mode.
+O <a href="https://fredericobrion.github.io/todo-list/" target="_blank">site</a> permite ao usuário criar uma lista de tarefa, podendo marca-las como completas ou incompletas, filtrar pelas completas ou incompletas e apagar as completas. As tarefas persistem no navegador através do local storage. Está disponível como dark-mode e light-mode.
 Design inspirado no desafio do site <a href="https://www.frontendmentor.io">Frontend Mentor</a>
 
 ## Tecnologias Utilizadas
